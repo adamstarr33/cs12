@@ -1,0 +1,125 @@
+h1 {
+    color: red;
+}
+
+body {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, #003594 1px, transparent 1px), linear-gradient(to bottom, #003594 1px, transparent 1px);
+}
+
+p {
+    margin-left: 10px;
+    color: grey;
+}
+
+p.mainh {
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+}
+
+p.mainb {
+    padding: 10px;
+    text-align: left;
+    font-size: medium;
+}
+
+p.about {
+    padding: 30px;
+    margin-right: 200px;
+    line-height: 1.5;
+}
+
+footer {
+        position: fixed;
+        height: 300px;
+        width: 100%;
+    }
+
+    p.bottom {
+        position: fixed;
+        width: 100%;
+        color: #ffe6f2;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+        font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+        font-style: italic;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left
+}
+li a {
+    color: white;
+    background-color: #003594;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: #003594;
+}
+
+li a.active {
+  background-color: #FFB81C;
+  color: white;
+}
+
+div.image {
+    float: right;
+
+}
+
+div.mainbody .image {
+    border-radius: 50%;
+}
+
+
+div.image img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.imagefade {
+    opacity: 0.5;
+    transition: 0.5s ease;
+    float: right;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imagefade:hover {
+  opacity: 1;
+}
+
+.mainbody {
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #FFB81C;
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+}
+
+
+div.button {
+    margin-top: 100px;
+}

@@ -3,8 +3,8 @@ h1 {
 }
 
 body {
-    background-size: 40px 40px;
-    background-image: linear-gradient(to right, #003594 1px, transparent 1px), linear-gradient(to bottom, #003594 1px, transparent 1px);
+  background: rgb(0,53,148);
+  background: linear-gradient(90deg, rgba(0,53,148,1) 0%, rgba(255,184,28,1) 100%); 
 }
 
 p {
@@ -21,7 +21,7 @@ p.mainh {
 p.mainb {
     padding: 10px;
     text-align: left;
-    font-size: medium;
+    font-size: large;
 }
 
 p.about {
@@ -44,7 +44,7 @@ footer {
         font-size: 0.7em;
         text-align: center;
         bottom:0;
-        font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+        font-family: 'Open Sans', sans-serif;
         font-style: italic;
     }
 
@@ -66,7 +66,8 @@ li a {
     background-color: #003594;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%
 }
 
 li a:hover:not(.active) {
@@ -110,7 +111,7 @@ div.image img {
 }
 
 .mainbody {
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: white;
     border-style: solid;
     border-color: #FFB81C;

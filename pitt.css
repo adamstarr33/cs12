@@ -4,7 +4,7 @@ h1 {
 
 body {
   background: rgb(0,53,148);
-  background: linear-gradient(90deg, rgba(0,53,148,1) 0%, rgba(255,184,28,1) 100%); 
+  background: linear-gradient(90deg, rgba(0,53,148,1) 0%, rgba(255,184,28,1) 100%);
 }
 
 p {
@@ -123,4 +123,18 @@ div.image img {
 
 div.button {
     margin-top: 100px;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%
+}
+
+th, td {
+  padding: 10px;
 }
